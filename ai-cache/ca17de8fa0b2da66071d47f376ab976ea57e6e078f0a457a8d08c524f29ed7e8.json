@@ -1,0 +1,93 @@
+{
+  "summary": "Resume of Himanshu Sachan, targeting Sales and Customer Executive roles. The resume highlights an academic background in Computer Science and an internship with IBM, focusing on communication, customer-handling, and problem-solving skills.",
+  "detectedSkills": [
+    "Customer Handling",
+    "Communication Skills",
+    "Lead Generation",
+    "Customer Requirement Understanding",
+    "Sales Follow-up",
+    "Relationship Building",
+    "Target-Oriented Approach",
+    "Problem Solving",
+    "Teamwork",
+    "Negotiation Basics",
+    "Adaptability",
+    "Quick Learning",
+    "Git",
+    "GitHub",
+    "Hindi",
+    "English"
+  ],
+  "sections": [
+    "Career Objective",
+    "Professional Summary",
+    "Core Sales Skills",
+    "Education",
+    "Internship / Experience",
+    "Key Strengths",
+    "Achievements",
+    "Languages",
+    "Additional Information"
+  ],
+  "checks": {
+    "hasName": true,
+    "hasEmail": true,
+    "hasPhone": true,
+    "hasLinkedIn": false,
+    "hasGitHub": false,
+    "hasPortfolio": false,
+    "hasSummary": true,
+    "hasEducation": true,
+    "hasExperience": true,
+    "hasProjects": false,
+    "hasSkills": true,
+    "hasCertifications": false,
+    "hasAchievements": true,
+    "standardHeadings": true,
+    "readableLayout": true,
+    "consistentDates": true,
+    "consistentBullets": true,
+    "hasActionVerbs": true,
+    "hasQuantifiedAchievements": true,
+    "hasWeakStatements": false,
+    "hasRepetition": false,
+    "projectTechnologies": false,
+    "projectDescriptions": false,
+    "experienceDescriptions": true,
+    "hasTechnicalContribution": true
+  },
+  "counts": {
+    "skills": 16,
+    "grammarErrors": 0,
+    "spellingErrors": 0,
+    "punctuationErrors": 0,
+    "weakStatements": 0,
+    "repeatedWords": 0,
+    "longBullets": 0,
+    "quantifiedBullets": 1
+  },
+  "projects": [],
+  "issues": [
+    {
+      "title": "Missing Projects Section",
+      "severity": "major",
+      "category": "Content",
+      "problem": "The resume does not have a dedicated projects section despite mentioning building multiple projects in achievements.",
+      "reason": "Employers look for practical projects to validate skills.",
+      "fix": "Add a dedicated Projects section detailing the built applications."
+    },
+    {
+      "title": "Missing Professional Links",
+      "severity": "minor",
+      "category": "Contact",
+      "problem": "LinkedIn and GitHub profiles are missing from the contact information.",
+      "reason": "Recruiters use these links to verify professional presence and technical work.",
+      "fix": "Include URLs for your LinkedIn and GitHub profiles in the header section."
+    }
+  ],
+  "strengths": [
+    "Clear and structured layout with standard headings.",
+    "Concise professional summary tailored to target roles.",
+    "Includes measurable achievements like solving 100+ coding problems on LeetCode."
+  ]
+}
