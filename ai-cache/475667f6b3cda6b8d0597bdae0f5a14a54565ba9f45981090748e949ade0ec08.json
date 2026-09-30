@@ -1,0 +1,189 @@
+{
+  "summary": "Aditya Shrikant Gangwar is a B.Tech Computer Science and Engineering student at Ajay Kumar Garg Engineering College (expected graduation June 2026). His resume highlights projects such as an Airbnb Clone, Spotify Clone Backend, and Weather App, alongside technical skills in Java, JavaScript, React.js, Node.js, Express.js, MongoDB, and MySQL. He has also completed an internship with IBM SkillsBuild and apprenticeship training at Indian Oil Corporation Limited.",
+  "detectedSkills": [
+    "Java",
+    "JavaScript",
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "MySQL",
+    "RESTful API Design",
+    "JWT Authentication",
+    "Middleware",
+    "MVC Architecture",
+    "GitHub",
+    "Postman",
+    "VS Code",
+    "Data Structures & Algorithms",
+    "OOPs",
+    "DBMS",
+    "COA",
+    "Operating Systems",
+    "Computer Networks",
+    "HTML",
+    "CSS"
+  ],
+  "sections": [
+    "EDUCATION",
+    "PROJECTS",
+    "TECHNICAL SKILLS",
+    "EXTRACURRICULAR",
+    "INTERNSHIP",
+    "CERTIFICATIONS"
+  ],
+  "checks": {
+    "hasName": true,
+    "hasEmail": true,
+    "hasPhone": true,
+    "hasLinkedIn": true,
+    "hasGitHub": true,
+    "hasPortfolio": false,
+    "hasSummary": false,
+    "hasEducation": true,
+    "hasExperience": true,
+    "hasProjects": true,
+    "hasSkills": true,
+    "hasCertifications": true,
+    "hasAchievements": false,
+    "standardHeadings": true,
+    "readableLayout": true,
+    "consistentDates": true,
+    "consistentBullets": true,
+    "hasActionVerbs": true,
+    "hasQuantifiedAchievements": false,
+    "hasWeakStatements": true,
+    "hasRepetition": false,
+    "projectTechnologies": true,
+    "projectDescriptions": true,
+    "experienceDescriptions": true,
+    "hasTechnicalContribution": true
+  },
+  "counts": {
+    "skills": 22,
+    "grammarErrors": 1,
+    "spellingErrors": 1,
+    "punctuationErrors": 2,
+    "weakStatements": 2,
+    "repeatedWords": 0,
+    "longBullets": 0,
+    "quantifiedBullets": 0
+  },
+  "projects": [
+    {
+      "name": "Airbnb Clone (Full Stack)",
+      "type": "Clone",
+      "level": "Intermediate",
+      "technicalDepth": 5,
+      "problemSolving": 4,
+      "uniqueness": 2,
+      "resumeQuality": 7,
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "EJS"
+      ],
+      "strengths": [
+        "Covers full-stack implementation with database and authentication",
+        "Clear feature breakdown using bullet points"
+      ],
+      "weaknesses": [
+        "Is a clone application with low uniqueness",
+        "Lacks quantified impact or user metrics"
+      ],
+      "improvements": [
+        "Add advanced features like payment gateway integration or search filtering optimizations"
+      ]
+    },
+    {
+      "name": "Spotify Clone Backend",
+      "type": "Clone",
+      "level": "Intermediate",
+      "technicalDepth": 6,
+      "problemSolving": 5,
+      "uniqueness": 3,
+      "resumeQuality": 8,
+      "technologies": [
+        "Node.js",
+        "Express.js",
+        "MongoDB"
+      ],
+      "strengths": [
+        "Focuses on backend architecture, role-based access control, and MVC pattern",
+        "Clear explanation of middleware and file upload integration"
+      ],
+      "weaknesses": [
+        "Is a clone application lacking originality",
+        "No performance benchmarks or testing metrics provided"
+      ],
+      "improvements": [
+        "Implement audio streaming optimization or caching layers"
+      ]
+    },
+    {
+      "name": "Weather App",
+      "type": "Common Utility",
+      "level": "Basic",
+      "technicalDepth": 3,
+      "problemSolving": 3,
+      "uniqueness": 1,
+      "resumeQuality": 6,
+      "technologies": [
+        "React.js"
+      ],
+      "strengths": [
+        "Demonstrates API integration and React hooks usage",
+        "Concise bullet points detailing user input handling"
+      ],
+      "weaknesses": [
+        "Common beginner project with very low uniqueness",
+        "Lacks advanced state management or error boundaries"
+      ],
+      "improvements": [
+        "Add historical weather charts or location autocomplete features"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "title": "Missing Professional Summary",
+      "severity": "minor",
+      "category": "Structure",
+      "problem": "The resume lacks a professional summary section at the top.",
+      "reason": "Recruiters prefer a brief introductory paragraph highlighting career goals and core competencies.",
+      "fix": "Add a short professional summary section below the contact information."
+    },
+    {
+      "title": "Spelling Error in Extracurricular",
+      "severity": "minor",
+      "category": "Spelling",
+      "problem": "The word 'Apperentice' is misspelled under the Indian Oil Corporation Limited entry.",
+      "reason": "Spelling mistakes can negatively impact the professional impression of the resume.",
+      "fix": "Change 'Apperentice' to 'Apprentice'."
+    },
+    {
+      "title": "Missing Quantified Achievements",
+      "severity": "minor",
+      "category": "Content",
+      "problem": "None of the project or internship bullet points contain metrics or numbers.",
+      "reason": "Quantifying achievements helps demonstrate the scale and impact of the work performed.",
+      "fix": "Add metrics where applicable, such as API response times, user base size, or number of components built."
+    },
+    {
+      "title": "Punctuation Spacing Inconsistency",
+      "severity": "minor",
+      "category": "Formatting",
+      "problem": "Extra spaces exist before periods in some bullet points (e.g., in the IBM internship section).",
+      "reason": "Inconsistent spacing affects the visual polish of the resume.",
+      "fix": "Remove spaces preceding terminal periods in bullet points."
+    }
+  ],
+  "strengths": [
+    "Clean and well-organized layout with standard section headings",
+    "Clear demarcation of technologies used across individual projects",
+    "Good coverage of fundamental computer science subjects and technical skills",
+    "Inclusion of both academic education and practical project/internship experience"
+  ]
+}
