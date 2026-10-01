@@ -351,13 +351,13 @@ function Admin() {
 
         return (
 
-            <div className="min-h-screen bg-gray-100 p-6">
+            <div className="min-h-screen bg-gray-100 p-3 sm:p-6">
 
                 <div className="max-w-7xl mx-auto">
 
                     {/* HEADER */}
 
-                    <div className="flex justify-between items-center mb-6">
+                    <div className="flex flex-col gap-4 sm:flex-row sm:justify-between sm:items-center mb-6">
 
                         <div>
 
@@ -385,7 +385,7 @@ function Admin() {
                                     !showAptitudeForm
                                 )
                             }
-                            className="bg-blue-600 text-white px-4 py-3 rounded-lg"
+                            className="bg-blue-600 text-white px-4 py-3 rounded-lg w-full sm:w-auto"
                         >
                             + Add Question
                         </button>
@@ -608,13 +608,13 @@ function Admin() {
 
         return (
 
-            <div className="min-h-screen bg-gray-100 p-6">
+            <div className="min-h-screen bg-gray-100 p-3 sm:p-6">
 
                 <div className="max-w-7xl mx-auto">
 
                     {/* HEADER */}
 
-                    <div className="flex justify-between items-center mb-6">
+                    <div className="flex flex-col gap-4 sm:flex-row sm:justify-between sm:items-center mb-6">
 
                         <div>
 
@@ -642,7 +642,7 @@ function Admin() {
                                     !showCodingForm
                                 )
                             }
-                            className="bg-green-600 text-white px-4 py-3 rounded-lg"
+                            className="bg-green-600 text-white px-4 py-3 rounded-lg w-full sm:w-auto"
                         >
                             + Add Question
                         </button>
@@ -856,7 +856,7 @@ function Admin() {
 
     return (
 
-        <div className="min-h-screen bg-gray-100 p-6">
+        <div className="min-h-screen bg-gray-100 p-3 sm:p-6">
 
             <div className="max-w-7xl mx-auto">
 
@@ -865,7 +865,7 @@ function Admin() {
 
                 <div className="bg-white p-6 rounded-2xl shadow mb-8">
 
-                    <div className="flex justify-between items-center">
+                    <div className="flex flex-col gap-4 sm:flex-row sm:justify-between sm:items-center">
 
                         <div>
 
@@ -884,20 +884,20 @@ function Admin() {
                         </div>
 
 
-                        <div className="flex gap-3">
+                        <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
 
                             <button
                                 onClick={() =>
                                     navigate("/dashboard")
                                 }
-                                className="bg-blue-600 text-white px-4 py-3 rounded-lg"
+                                className="bg-blue-600 text-white px-4 py-3 rounded-lg w-full sm:w-auto"
                             >
                                 Student Dashboard
                             </button>
 
                             <button
                                 onClick={logout}
-                                className="bg-red-500 text-white px-4 py-3 rounded-lg"
+                                className="bg-red-500 text-white px-4 py-3 rounded-lg w-full sm:w-auto"
                             >
                                 Logout
                             </button>
@@ -911,7 +911,7 @@ function Admin() {
 
                 {/* STATS */}
 
-                <div className="grid md:grid-cols-4 gap-5 mb-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 mb-8">
 
                     <StatCard
                         title="Users"
@@ -951,7 +951,7 @@ function Admin() {
 
                     <div className="overflow-x-auto">
 
-                        <table className="w-full">
+                        <table className="min-w-[700px] w-full">
 
                             <thead>
 
@@ -1050,12 +1050,12 @@ function Admin() {
 
                 {/* QUESTION SECTIONS */}
 
-                <div className="grid md:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
 
                     {/* APTITUDE CARD */}
 
-                    <div className="bg-white p-8 rounded-2xl shadow">
+                    <div className="bg-white p-5 sm:p-8 rounded-2xl shadow">
 
                         <div className="text-4xl mb-4">
                             🧠
@@ -1076,7 +1076,7 @@ function Admin() {
 
                         <button
                             onClick={() => setPage("aptitude")}
-                            className="bg-blue-600 text-white px-5 py-3 rounded-lg mt-5"
+                            className="bg-blue-600 text-white px-5 py-3 rounded-lg mt-5 w-full sm:w-auto"
                         >
                             Open Aptitude →
                         </button>
@@ -1086,7 +1086,7 @@ function Admin() {
 
                     {/* CODING CARD */}
 
-                    <div className="bg-white p-8 rounded-2xl shadow">
+                    <div className="bg-white p-5 sm:p-8 rounded-2xl shadow">
 
                         <div className="text-4xl mb-4">
                             💻
@@ -1107,7 +1107,7 @@ function Admin() {
 
                         <button
                             onClick={() => setPage("coding")}
-                            className="bg-green-600 text-white px-5 py-3 rounded-lg mt-5"
+                            className="bg-green-600 text-white px-5 py-3 rounded-lg mt-5 w-full sm:w-auto"
                         >
                             Open Coding →
                         </button>
