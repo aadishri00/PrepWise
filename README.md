@@ -4,13 +4,12 @@ PrepWise is a full-stack placement preparation platform built for students prepa
 
 The project was built as a practical MERN application with a focus on authentication, assessment workflows, AI-assisted features, and a clean user experience.
 
-Live Demo
+##  Live Demo
 
-Frontend: https://prep-wise-kappa-two.vercel.app
+**Live Website:** https://prep-wise-kappa-two.vercel.app
 
-Backend API: https://prepwise-6474.onrender.com
+**GitHub Repository:** https://github.com/aadishri00/PrepWise
 
-The free backend may take a few seconds to wake up after a period of inactivity.
 
 Features
 
@@ -62,49 +61,31 @@ Add and manage coding questions
 
 Coding question difficulty and category management
 
-Tech Stack
+## 🛠️ Tech Stack
 
-Frontend
+### Frontend
+- React.js
+- Vite
+- Tailwind CSS
+- React Router
+- Axios
+- Recharts
 
-React.js
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT
+- bcryptjs
+- Multer
 
-Vite
-
-Tailwind CSS
-
-React Router
-
-Axios
-
-Recharts
-
-Backend
-
-Node.js
-
-Express.js
-
-MongoDB
-
-Mongoose
-
-JWT
-
-bcryptjs
-
-Multer
-
-AI
-
-Google Gemini API
-
-Deployment
-
-Vercel — Frontend
-
-Render — Backend
-
-MongoDB Atlas — Database
+### AI & Tools
+- Google Gemini API
+- Git & GitHub
+- Vercel
+- Render
+- MongoDB Atlas
 
 Project Structure
 
